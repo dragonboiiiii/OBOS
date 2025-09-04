@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OpenBeleeBOS – Blast of the Past</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #0a0a0a; /* dark base to make glass stand out */
+      color: #fff;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+    }
+
+    .aero-box {
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(255,255,255,0.4);
+      border-radius: 12px;
+      backdrop-filter: blur(18px) saturate(180%);
+      -webkit-backdrop-filter: blur(18px) saturate(180%);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+      padding: 30px;
+      margin: 40px auto;
+      width: 900px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header img {
+      width: 220px;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      font-weight: bold;
+      background: linear-gradient(180deg, #ffffff, #bfe);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    header h2 {
+      font-size: 20px;
+      color: #e8ffff;
+    }
+
+    nav {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 0 15px;
+      padding: 8px 16px;
+      border-radius: 6px;
+      background: rgba(255,255,255,0.25);
+      border: 1px solid rgba(255,255,255,0.4);
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: inset 0 1px 1px rgba(255,255,255,0.6);
+    }
+
+    nav a:hover {
+      background: rgba(255,255,255,0.45);
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    section h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      padding-bottom: 5px;
+    }
+
+    .screenshot {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    }
+
+    .themes {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .theme-card {
+      flex: 1;
+      margin: 0 10px;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .theme-card img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: #ccc;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="aero-box">
+    <header>
+      <img src="logo.PNG" alt="OpenBeleeBOS Logo">
+      <h1>OpenBeleeBOS</h1>
+      <h2>The 2011 OS that runs 2025 apps</h2>
+    </header>
+
+    <nav>
+      <a href="#">Features</a>
+      <a href="#">Themes</a>
+      <a href="#">Downloads</a>
+      <a href="#">Community</a>
+    </nav>
+
+    <section>
+      <h3>Why OpenBeleeBOS?</h3>
+      <p>
+        OpenBeleeBOS is a modern x86_64 mobile OS that runs APKs and IPAs,
+        while looking straight out of 2011. Exclusive to BeleePad, it’s
+        open source, every commit ships with an <code>.img</code>, and it
+        supports flashing Android images with a single tap.
+      </p>
+      <img src="ui.PNG" alt="OpenBeleeBOS UI" class="screenshot">
+    </section>
+
+    <section>
+      <h3>Retro Themes</h3>
+      <div class="themes">
+        <div class="theme-card">
+          <img src="robotica.PNG" alt="Robotica Theme">
+          <h4>Robotica</h4>
+          <p>Android 3.0 Honeycomb look (with FroyoComb beta mode).</p>
+        </div>
+        <div class="theme-card">
+          <img src="aqua.PNG" alt="Aqua Theme">
+          <h4>Aqua</h4>
+          <p>Skeuomorphic iOS 6 textures, linen backgrounds, glossy icons.</p>
+        </div>
+        <div class="theme-card">
+          <img src="gold.PNG" alt="Good Ol’ Days Theme">
+          <h4>Good Ol’ Days</h4>
+          <p>MeeGo/Moblin nostalgia with clean panels and a dark top bar.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Codename History</h3>
+      <p>
+        From <strong>Apple Pie (1.0)</strong> to <strong>Pudding (16.0)</strong>,
+        every release has a sweet name. Because Belee believes nostalgia
+        tastes best when it’s dessert flavored.
+      </p>
+    </section>
+
+    <footer>
+       <br>
+      Blast of the Past.
+    </footer>
+  </div>
+</body>
+</html>
